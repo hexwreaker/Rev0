@@ -180,7 +180,7 @@ def bindiff(fs_dir1, fs_dir2, outdir, excludes, silktouch, ida_path, verbose, ti
             print(f"{BLUE}[{count}/{len(diff_files)}] {file} skip.{NOC}")
 
 def bindiff_args(args):
-    bindiff(args.FILESYS1, args.FILESYS2, outdir, args.excludes, args.silktouch, args.ida_path, args.verbose, args.timeout)
+    bindiff(args.FILESYS1, args.FILESYS2, args.outdir, args.excludes, args.silktouch, args.ida_path, args.verbose, args.timeout)
 
 def readiff(args):
     file = args.BINDIFF_FILE

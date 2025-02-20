@@ -107,7 +107,10 @@ def binary_to_binexport(ida_path, binpath, verbose, timeout):
     :rtype: str
     """
     # get fullpath
-    fullpath = os.getcwd()+"/"+binpath
+    if binpath[0] == '/':
+        fullpath = binpath
+    else:
+        fullpath = os.getcwd()+"/"+binpath
     if verbose >= 1:
         print(f"Export {binpath} to BinExport file format")
     try:
