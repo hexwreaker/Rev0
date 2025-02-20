@@ -1,6 +1,9 @@
 
 # Todo
 
+## Misc
+- création d'un projet et sauvegardes.
+
 ## symlook
 - Prise en charge des exécutables non compilés : shellscript, javascript, python, aspnet,  
 - Prise en charge des fichiers de données : html, xml, config, css, 
