@@ -193,7 +193,7 @@ def readiff(args):
 if __name__ == '__main__':
     description = """\
     The Rev0 project to help you reversing entire filesystems.
-    By @hexwreaker on github : https://github.com/hexwreaker."""
+    By @hexwreaker on github : https://github.com/hexwreaker/Rev0."""
     argp = argparse.ArgumentParser(description=description, formatter_class=argparse.RawTextHelpFormatter)
     argp.add_argument("-v", "--verbose", help="set the output in verbose mode, print more informations", action='store_true')
 
