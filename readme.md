@@ -11,7 +11,7 @@
 usage: rev0.py [-h] [-v] {symap,diff,bindiff,readiff} ...
 
     The Rev0 project to help you reversing entire filesystems.
-    By @hexwreaker on github : https://github.com/hexwreaker.
+    By @hexwreaker on github : https://github.com/hexwreaker/Rev0.
 
 positional arguments:
   {symap,diff,bindiff,readiff}
